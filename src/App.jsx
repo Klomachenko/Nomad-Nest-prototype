@@ -45,10 +45,13 @@ function App() {
 
   return (
     <Container>
-      <Logo src='src/assets/NomadNestLogo.png' alt='main-logo' />
+      <Logo
+        src='https://i.ibb.co/27hhbv0/Nomad-Nest-Logo.png'
+        alt='main-logo'
+      />
       <MenuContainer>
         <MenuListImg
-          src='src/assets/Airport-to-Gwangju.png'
+          src='https://i.ibb.co/Y0sTwmJ/Airport-to-Gwangju.png'
           onClick={() =>
             goToPage(
               'https://proud-almanac-29b.notion.site/Airport-to-Gwangju-2567ca62579b4b06bcff00f39ae7970f?pvs=4'
@@ -56,11 +59,11 @@ function App() {
           }
         />
         <MenuListImg
-          src='src/assets/Gwangju-to-CNU.png'
+          src='https://i.ibb.co/QJmD6qF/Gwangju-to-CNU.png'
           onClick={() => goToPage('https://proud-almanac-29b.notion.site/')}
         />
-        <MenuListImg src='src/assets/Dorm move-in.png' />
-        <MenuListImg src='src/assets/Buy daily products.png' />
+        <MenuListImg src='https://i.ibb.co/4T7Wzkj/Dorm-move-in.png' />
+        <MenuListImg src='https://i.ibb.co/H2LPZRW/Buy-daily-products.png' />
       </MenuContainer>
     </Container>
   );
