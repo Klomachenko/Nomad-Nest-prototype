@@ -62,8 +62,22 @@ function App() {
           src='https://i.ibb.co/QJmD6qF/Gwangju-to-CNU.png'
           onClick={() => goToPage('https://proud-almanac-29b.notion.site/')}
         />
-        <MenuListImg src='https://i.ibb.co/4T7Wzkj/Dorm-move-in.png' />
-        <MenuListImg src='https://i.ibb.co/H2LPZRW/Buy-daily-products.png' />
+        <MenuListImg
+          src='https://i.ibb.co/4T7Wzkj/Dorm-move-in.png'
+          onClick={() =>
+            goToPage(
+              'https://proud-almanac-29b.notion.site/Dormitory-move-in-19957d10c49f4e2db038c755057e39d4?pvs=4'
+            )
+          }
+        />
+        <MenuListImg
+          src='https://i.ibb.co/H2LPZRW/Buy-daily-products.png'
+          onClick={() =>
+            goToPage(
+              'https://proud-almanac-29b.notion.site/Buy-daily-necessities-d8696737c1ea46e7a548747ad9f8256c?pvs=4'
+            )
+          }
+        />
       </MenuContainer>
     </Container>
   );
