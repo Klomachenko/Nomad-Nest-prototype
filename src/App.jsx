@@ -1,11 +1,10 @@
-import { useNavigate } from 'react-router-dom';
 import './App.css';
 import styled from 'styled-components';
 
 const Container = styled.div`
   width: 100vw;
   height: 100vh;
-  background-color: #2d9950;
+  background-color: #0064ff;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -46,7 +45,7 @@ function App() {
   return (
     <Container>
       <Logo
-        src='https://i.ibb.co/27hhbv0/Nomad-Nest-Logo.png'
+        src='https://i.ibb.co/b7Q9QYZ/Nomad-Nest-logo-white.png'
         alt='main-logo'
       />
       <MenuContainer>
