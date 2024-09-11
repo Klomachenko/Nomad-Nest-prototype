@@ -50,6 +50,14 @@ function App() {
       />
       <MenuContainer>
         <MenuListImg
+          src='https://i.ibb.co/Xzk5RBp/CNU-Sport-Center.png'
+          onClick={() =>
+            goToPage(
+              'https://proud-almanac-29b.notion.site/How-to-use-Sport-Center-2b9cd4f803aa4793a0eb66a23f25fb8f?pvs=4'
+            )
+          }
+        />
+        <MenuListImg
           src='https://i.ibb.co/Y0sTwmJ/Airport-to-Gwangju.png'
           onClick={() =>
             goToPage(
